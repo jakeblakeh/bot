@@ -7,7 +7,7 @@ const prefix = "!"
 
 Client.on("ready", () => {
 	console.log("online");
-	Client.user.setPresence({ game: { name: `A Server`, type: 0} });
+	Client.user.setPresence({ game: { name: `BlueDragon`, type: 0} });
 });
 
 // welcome message
@@ -153,10 +153,10 @@ client.on('message', msg => {
 //    timestamp: new Date(),
 //    footer: {
 //      icon_url: <Client>.user.avatarURL,
-//      text: '© Example'
+//      text: 'Â© Example'
 //    }});
 //My key
 
 });
 
-Client.login("NDY0MTUwODk1Njg5NDY1ODY2.Dh6x2w.mrH5LpH_Iu_WulshcGTCARtV9Fs");
+Client.login("NDY1MDA0MDY4Nzc1OTE5NjE2.DiHPVQ.38Jk9IV7cyVBWKB5oLMWZXtMY5o");
